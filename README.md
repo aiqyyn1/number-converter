@@ -16,7 +16,8 @@ To install the package, use npm:
 ```bash
 npm install unique-number-converter
 yarn add number-to-text-converter
-
+```
+```bash
 const { numberToWords } = require('number-to-text-converter');
 
 // Convert a number to its text representation
