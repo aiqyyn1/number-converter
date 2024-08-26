@@ -16,3 +16,15 @@ To install the package, use npm:
 ```bash
 npm install unique-number-converter
 yarn add number-to-text-converter
+
+const { numberToWords } = require('number-to-text-converter');
+
+// Convert a number to its text representation
+console.log(numberToWords(123));  // Output: 'one hundred twenty-three'
+
+// Convert a negative number
+console.log(numberToWords(456, {lang:'ru'))));  // Output: 'четыресто пятьдесят шесть'
+
+// Convert a large number
+console.log(numberToWords(789012));  // Output: 'seven hundred eighty-nine thousand twelve'
+
